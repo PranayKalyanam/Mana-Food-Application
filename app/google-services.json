@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "21235417632",
+    "firebase_url": "https://admin-mana-food-default-rtdb.firebaseio.com",
+    "project_id": "admin-mana-food",
+    "storage_bucket": "admin-mana-food.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21235417632:android:5a7fe7a87bb8cab2f8b245",
+        "android_client_info": {
+          "package_name": "com.example.adminmanafood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21235417632-8gguk516cjl60hclcoum74lbjcqp0et5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArqzfScmlIQpRtMzCvNpVKVe31qWZQ86Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21235417632-8gguk516cjl60hclcoum74lbjcqp0et5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21235417632:android:70b90be2f0afd8d4f8b245",
+        "android_client_info": {
+          "package_name": "com.example.manafood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21235417632-8gguk516cjl60hclcoum74lbjcqp0et5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArqzfScmlIQpRtMzCvNpVKVe31qWZQ86Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21235417632-8gguk516cjl60hclcoum74lbjcqp0et5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21235417632:android:6629e8fb5ed00a58f8b245",
+        "android_client_info": {
+          "package_name": "com.example.manafoodadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21235417632-led1vspruh2rjignfl2eqjip4hghn5kl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manafoodadmin",
+            "certificate_hash": "89637b17ce560c647afd43d08e364d685264d94e"
+          }
+        },
+        {
+          "client_id": "21235417632-8gguk516cjl60hclcoum74lbjcqp0et5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArqzfScmlIQpRtMzCvNpVKVe31qWZQ86Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21235417632-8gguk516cjl60hclcoum74lbjcqp0et5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

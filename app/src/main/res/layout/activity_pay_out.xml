@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingStart="6dp"
+    android:paddingEnd="6dp"
+    tools:context=".Fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/payOutBackButton"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/backarrow"
+            android:src="@drawable/left_arrow"
+            tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/text_color"
+            android:fontFamily="@font/yeonsung_regular"
+            android:layout_marginTop="16dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edittextprofileshape"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/yeonsung_regular"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:text="@string/user"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateSpeakableTextCheck,LabelFor,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/edittextprofileshape"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/yeonsung_regular"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:text="@string/address"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="top"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                android:text="@string/address_description"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateSpeakableTextCheck,LabelFor,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittextprofileshape"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/yeonsung_regular"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:text="@string/phone"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_vertical"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:text="@string/_1234567890"
+                android:textColor="@color/black"
+                tools:ignore="DuplicateSpeakableTextCheck,LabelFor,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittextprofileshape"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/yeonsung_regular"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:text="@string/payment_method"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="TextSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/cash_on_delivery"
+                app:srcCompat="@drawable/cashondelivery" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittextprofileshape"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/yeonsung_regular"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:text="@string/total_amount"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="TextSizeCheck" />
+
+            <EditText
+                android:id="@+id/totalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:fontFamily="@font/yeonsung_regular"
+                android:gravity="center_vertical|end"
+                android:importantForAutofill="no"
+                android:inputType="none"
+                android:paddingEnd="32dp"
+                android:text="@string/_5"
+                android:textColor="@color/text_color"
+                android:textSize="20sp"
+                tools:ignore="DuplicateSpeakableTextCheck,LabelFor,RtlSymmetry,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/placeMyOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/proceedbuttonshape"
+        android:elevation="5dp"
+        android:fontFamily="@font/yeonsung_regular"
+        android:text="@string/place_my_order"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

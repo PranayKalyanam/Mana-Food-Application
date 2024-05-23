@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment.CongratsBottomSheetFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/congrats_n_your_order_placed"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="32sp"
+            android:fontFamily="@font/yeonsung_regular"
+            android:layout_marginTop="32dp"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/successlogo"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/congrats_n_your_order_placed" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/homeButton"
+            android:layout_width="157dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/greenbuttongradient"
+            android:fontFamily="@font/yeonsung_regular"
+            android:text="@string/go_home"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</FrameLayout>
